@@ -1,23 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kay+Pho+Du:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kay+Pho+Du:wght@700&display=swap');
 *{
     margin: auto;
 }
+body {
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #272727;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #4d4d4d; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7e7e7e; 
+  }
 .myportfolio {
-    width: 100%;
+    position: absolute;
+    width: 100vw;
     height: 950px;
     display: flex;
     align-items: center;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    background-image: radial-gradient(rgb(17, 17, 17) 95%,rgb(49, 49, 49) );
+    justify-content: center;
+    background-image: radial-gradient(rgb(22, 22, 22) 95%,rgb(49, 49, 49) );
+
 
     
 
 }
 .myportfolio h1{
-    font-family: "Oswald", serif;
+    position: absolute;
+    font-family: "EB Garamond", serif;
     font-weight: 900;
-    letter-spacing: .5rem;
-    font-size: 15vw;
+    letter-spacing: .3rem;
+    font-size: 16vw;
+    color: rgb(255, 254, 254);
+    opacity: 0.80;
+}
+.myportfolio img{
+    position: relative;
+    width: 100vw;
+    height: 950px;
+    filter: drop-shadow(-20px 0px 10px rgba(219, 219, 219, 0.5));
+
+}
+.myportfolio p1{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-family: "Bebas Neue", serif;
+    font-size: 1vw;
+    font-style: italic;
+    bottom: 40px;
+    left: 65px;
+    width: 25vw;
+    height: 30vh;
+    /* border: solid rgb(189, 72, 72); */
+    color: rgb(235, 234, 234);
+}
+.myportfolio .NavBar{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    top: 30px;
+    right: 0;
+    width: 35vw;
+    color: white;
+    font-family: "Bebas Neue", serif;
+    font-size: 1.10vw;
+    /* border: solid rgb(189, 72, 72); */
+
 }
