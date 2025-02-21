@@ -17,11 +17,11 @@ function MyHeader() { // PascalCase function name
                 while continuously expanding technical expertise.
             </p1>
             <div className='NavBar'>
-                <nav>Home</nav>
-                <nav>Team</nav>
-                <nav>Projects</nav>
-                <nav>About Me</nav>
-                <nav>Contact</nav>
+                <nav className='Bar1'>Home</nav>
+                <nav className='Bar2'>Team</nav>
+                <nav className='Bar3'>Projects</nav>
+                <nav className='Bar4'>About Me</nav>
+                <nav className='Bar5'>Contact</nav>
             </div>
         </div>
     );

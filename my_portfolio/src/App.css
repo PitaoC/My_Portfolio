@@ -1,5 +1,14 @@
-.App {
+body {
   margin: auto;
+  overflow-x: hidden;
+  
+}
+.App {
   height: 5000px;
+  display: flex;
+  flex-direction: column;
+  /* border: solid blue; */
+  background-color: rgb(32, 32, 32);
+
 }
 
