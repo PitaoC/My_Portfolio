@@ -24,11 +24,11 @@
 .myportfolio {
     /* position: relative; */
     width: 100vw;
-    height: 950px;
+    height: 1000px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: radial-gradient(rgb(22, 22, 22) 95%,rgb(49, 49, 49) );
+    /* border: solid red; */
 
 
     
@@ -40,13 +40,13 @@
     font-weight: 900;
     letter-spacing: .3rem;
     font-size: 16vw;
-    color: rgb(255, 254, 254);
-    opacity: 0.80;
+    color: rgb(255, 255, 255);
+    opacity: 0.90;
 }
 .myportfolio img{
     position: relative;
     width: 100vw;
-    height: 950px;
+    height: 1000px;
     filter: drop-shadow(-20px 0px 10px rgba(219, 219, 219, 0.5));
 
 }

@@ -18,8 +18,9 @@ function MyHeader() { // PascalCase function name
         //     </div>
         // </div>
         <div className="myportfolio">
-            <img alt="MeHeader" src={MeHeader} ></img>
+            {/* <img alt="MeHeader" src={MeHeader} ></img> */}
             <h1>PORTFOLIO</h1>
+            
 
 
             <div className='NavBar'>

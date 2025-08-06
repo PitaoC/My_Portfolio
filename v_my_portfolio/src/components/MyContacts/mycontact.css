@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@700&family=Roboto:ital,wght@1,500&display=swap');
+
+
+.ContactBorder {
+    border: solid red;
+    width: 100vw;
+    height: 1000px;
+    /* border: solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.ContactBorder .ContactPadding{
+    width: 50vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    /* border: solid red; */
+}
+
+.FillupForm{
+    /* border: solid red; */
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.FillupForm p{
+    font-family: "Libertinus Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    font-style: normal;
+    color : rgb(241, 241, 241);
+    /* border: solid red; */
+    margin: 1;
+}
+
+.FillupForm .Email{
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* border: solid red; */
+}
+
+.FillupForm .Phone{
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* border: solid red; */
+}
+
+.FillupForm .Email-Phone-box{
+    display: flex;
+    width: 30vw;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* border: solid red; */
+}
+
+.FillupForm .NameIn{
+    width: 30vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 10px;
+    /* border: solid red; */
+}
+
+.FillupForm .Email-Phone-box .Email .EmailIn{
+    width: 14vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 10px;
+    /* border: solid red; */
+}
+
+.FillupForm .Email-Phone-box .Phone .PhoneIn{
+    width: 15vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 10px;
+    /* border: solid red; */
+}
+
+.FillupForm .TextAreaIn{
+    width: 30vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 10px;
+    /* border: solid red; */
+}
+
+.FillupForm .SubmitButton{
+    margin-top: 1vw;
+    width: 5vw;
+    height: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+    color: black;
+    font-family: "Libertinus Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    font-style: normal;
+}
+
+.ContactDetails{
+    border: solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 100vh;
+    /* border: solid red; */
+}
+
+.ContactDetails .ContactDetailsBox{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: solid red; */
+}
+
+.ContactUsBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 10vh;
+    border: solid red;
+}

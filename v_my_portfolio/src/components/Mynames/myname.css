@@ -1,11 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@1,500&display=swap');
 
+.HBackground {
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    /* border: solid red; */
+    z-index: 0;
 
-.border{
+}
+.HBackground img {
+    position: absolute;
+    object-fit: cover;
+    width: 95vw;
+    height: 100vh;
+    opacity: 0.5;
+    /* border: solid red; */
+}
+.border{   
     padding-left: 40px;
     width: 100vw;
-    height: 1000px;
-    border: solid red;
+    height: 1100px;
+    /* border: solid red; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -15,7 +34,8 @@
 .OuterBorder{
     /* border: solid red; */
     width: 40vw;
-    height: 230px;
+    height: 250px;
+    z-index: 1;
 }
 .OuterBorder p1{
     position: relative;
@@ -46,30 +66,39 @@
     color: rgb(241, 241, 241);
     text-shadow: white;
 }
+.MiddleBorder{
+    z-index: 1;
+    /* border: solid red; */
+
+}
 .MiddleBorder h2{
-    margin: 0;
+    margin-bottom: 0;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     text-align: center;
     font-size: 2vw;
     width: 40vw;
-    height: 13vh;
+    height: 5vh;
     /* border: solid rgb(189, 72, 72); */
-    font-family: "Oswald", serif;
-    color: rgb(255, 95, 95);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(233, 29, 29);
 }
 .MiddleBorder .p2{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: justify;
-    font-family: "Bebas Neue", serif;
-    font-size: 1vw;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
     font-style: italic;
-    bottom: 10px;
+    /* bottom: 10px; */
     width: 40vw;
-    height: 10vh;
+    height: 13vh;
     /* border: solid rgb(189, 72, 72); */
     color: rgb(235, 234, 234);
 }
