@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Oswald:wght@700&display=swap');
+
+
+.border{
+    padding-left: 40px;
+    width: 100vw;
+    height: 1000px;
+    border: solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+}
+.OuterBorder{
+    /* border: solid red; */
+    width: 40vw;
+    height: 230px;
+}
+.OuterBorder p1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 2vw;
+    width: 21vw;
+    height: 5vh;
+    font-family: "DM Serif Display", serif;
+    /* border: solid red; */
+    color: rgb(241, 241, 241);
+}
+.OuterBorder h1{
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: justify;
+    font-size: 5vw;
+    width: 40vw;
+    height: 23vh;
+    /* border: solid red; */
+    /* background-image: linear-gradient(to right, rgb(90, 90, 90) ,rgb(110, 110, 110) 5%,rgb(143, 143, 143) 95%,rgb(116, 116, 116)) ; */
+    font-family: "DM Serif Display", serif;
+    color: rgb(241, 241, 241);
+    text-shadow: white;
+}
+.MiddleBorder h2{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 2vw;
+    width: 40vw;
+    height: 13vh;
+    /* border: solid rgb(189, 72, 72); */
+    font-family: "Oswald", serif;
+    color: rgb(255, 95, 95);
+}
+.MiddleBorder .p2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-family: "Bebas Neue", serif;
+    font-size: 1vw;
+    font-style: italic;
+    bottom: 10px;
+    width: 40vw;
+    height: 10vh;
+    /* border: solid rgb(189, 72, 72); */
+    color: rgb(235, 234, 234);
+}

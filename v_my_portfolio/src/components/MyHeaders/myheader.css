@@ -50,7 +50,7 @@
     filter: drop-shadow(-20px 0px 10px rgba(219, 219, 219, 0.5));
 
 }
-.myportfolio p1{
+/* .myportfolio p1{
     position: absolute;
     display: flex;
     align-items: center;
@@ -63,9 +63,9 @@
     left: 65px;
     width: 25vw;
     height: 30vh;
-    /* border: solid rgb(189, 72, 72); */
+    border: solid rgb(189, 72, 72);
     color: rgb(235, 234, 234);
-}
+} */
 .myportfolio .NavBar{
     position: absolute;
     display: flex;

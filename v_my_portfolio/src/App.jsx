@@ -1,5 +1,5 @@
-import MyHeader from './Components/MyHeaders/MyHeader';
-import MyName from './Components/MyNames/MyName';
+import MyHeader from './components/MyHeaders/MyHeader';
+import MyName from './components/Mynames/Myname';
 import './App.css';
 
 function App() {
@@ -12,3 +12,4 @@ function App() {
 }
 
 export default App;
+
