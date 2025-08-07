@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@700&family=Roboto:ital,wght@1,500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:wght@700&family=Mozilla+Headline&family=Roboto:ital@0;1&display=swap');
 
 .ContactBorder {
-    border: solid red;
+    /* border: solid red; */
     width: 100vw;
     height: 1000px;
     /* border: solid red; */
@@ -33,6 +35,28 @@
     align-items: flex-start;
     justify-content: center;
 }
+.FillupForm input{
+    padding-left: 10px;
+    font-size: .8vw;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.FillupForm textarea{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: .8vw;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
 
 .FillupForm p{
     font-family: "Libertinus Sans", sans-serif;
@@ -41,7 +65,6 @@
     font-style: normal;
     color : rgb(241, 241, 241);
     /* border: solid red; */
-    margin: 1;
 }
 
 .FillupForm .Email{
@@ -123,16 +146,17 @@
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    background-color: rgb(241, 241, 241);
+    background-color: turquoise;
     color: black;
-    font-family: "Libertinus Sans", sans-serif;
-    font-weight: 400;
-    font-size: 1vw;
+    font-family: "Roboto", sans-serif;
+    font-size: .8vw;
+    font-optical-sizing: auto;
+    font-weight: 700;
     font-style: normal;
 }
 
 .ContactDetails{
-    border: solid red;
+    /* border: solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -157,7 +181,156 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    font-size: 1.3vw;
+    font-family: "Mozilla Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
     width: 30vw;
     height: 10vh;
-    border: solid red;
+    /* border: solid red; */
+
+}
+
+.ContactUsBox .h1white {
+    color: turquoise;
+}
+
+.ContactDetails .ContactDetailsBox .forquestion {
+    font-size: 1vw;
+    color: white;
+    font-family: "Mozilla Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.ContactDetails .ContactDetailsBox .ContactInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30vw;
+    height: 30vh;
+    color: white;
+    font-family: "Mozilla Headline", sans-serif;
+    /* border: solid red; */
+}
+
+.ContactDetails .ContactDetailsBox .ContactInfo p{
+    margin-left: 20px;
+}
+
+.ContactDetails .ContactDetailsBox .ContactInfo .PhoneIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    width: 30vw;
+    height: 10vh;
+    font-size: 1.3vw;
+    /* border: solid red; */
+}
+
+.ContactDetails .ContactDetailsBox .ContactInfo .PhoneIcon .phoneIconContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 3vw;
+    height: 3vw;
+    background-color: turquoise ;
+    border-radius: 50%;
+    /* border: solid red; */
+}
+
+.ContactDetails .ContactDetailsBox .ContactInfo .PhoneIcon img{
+    display: flex;
+    align-items: flex-start ;
+    justify-content: flex-start;
+    width: 2vw;
+    height: 2vw;
+    /* border: solid red; */
+
+}
+
+.ContactDetails .ContactDetailsBox .ContactInfo .EmailIcon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 30vw;
+    height: 10vh;
+    font-size: 1.3vw;
+    /* border: solid red; */
+}
+
+.ContactDetails .ContactDetailsBox .ContactInfo .EmailIcon .emailIconContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 3vw;
+    height: 3vw;
+    background-color: turquoise ;
+    border-radius: 50%;
+    /* border: solid red; */
+}
+
+.ContactDetails .ContactDetailsBox .ContactInfo .EmailIcon img{
+    display: flex;
+    align-items: flex-start ;
+    justify-content: flex-start;
+    width: 2vw;
+    height: 2vw;
+    /* border: solid red; */
+}
+
+.ContactDetails .ContactDetailsBox .ContactInfo .AddressIcon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    width: 30vw;
+    height: 10vh;
+    font-size: 1.3vw;
+    /* border: solid red; */
+}
+
+.ContactDetails .ContactDetailsBox .ContactInfo .AddressIcon .addressIconContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 5.4vw;
+    height: 3vw;
+    background-color: turquoise ;
+    border-radius: 50%;
+    /* border: solid red; */
+}
+
+.ContactDetails .ContactDetailsBox .ContactInfo .AddressIcon img{
+    display: flex;
+    align-items: flex-start ;
+    justify-content: flex-start;
+    width: 2vw;
+    height: 2vw;
+    /* border: solid red; */
+}
+
+
+input::placeholder,
+textarea::placeholder {
+    color: transparent;
+    transition: color 0.2s ease;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+    color: #999; /* or any placeholder color you prefer */
 }

@@ -1,4 +1,8 @@
 import './mycontact.css';
+import phoneIcon from '../../assets/phone-solid-full.svg';
+import emailIcon from '../../assets/envelope-solid-full.svg';
+import addressIcon from '../../assets/location-dot-solid-full.svg';
+
 
 
 function MyContact() {
@@ -31,11 +35,31 @@ function MyContact() {
                 <div className='ContactDetails'>
                     <div className='ContactDetailsBox'>
                         <header className='ContactUsBox'>
-                            <h1>Contact</h1>
-                            <h1>Us</h1> 
+                            <h1>Contact&nbsp;</h1>
+                            <h1 className='h1white'>Us</h1> 
                         </header>
-                        <p>For questions, job offers, technical assistance or collaboration opportunities 
+                        <p className='forquestion'>For questions, job offers, technical assistance or collaboration opportunities 
                            via the contact information provided.</p>
+                        <div className='ContactInfo'>
+                            <div className='PhoneIcon'>
+                                <div className='phoneIconContainer'>
+                                    <img src={phoneIcon} alt="phoneIcon" />
+                                </div>
+                                <p>+63 956 8369 352</p>
+                            </div>
+                            <div className='EmailIcon'>
+                                <div className='emailIconContainer'>
+                                    <img src={emailIcon} alt="emailIcon" />
+                                </div>
+                                <p className='Email'> Christianpitao07@gmail.com</p>
+                            </div>
+                            <div className='AddressIcon'>
+                                <div className='addressIconContainer'>
+                                    <img src={addressIcon} alt="addressIcon" />
+                                </div>
+                                <p className='Address'>3552+5RR Ramonita County Homes, Darasa, Tanauan, Batangas, Phillipines</p>
+                            </div>
+                        </div>
                     </div>
                     
                 </div>
