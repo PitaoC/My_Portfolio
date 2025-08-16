@@ -20,9 +20,27 @@
     opacity: 1;
     /* border: solid red; */
 }
+
+.Nouterborder{
+    display: flex;
+    flex-direction: row;
+}
+
+.skills{   
+    padding-right: 40px;
+    width: 45vw;
+    height: 1000px;
+    border: solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: center;
+    z-index: 1;
+}
 .border{   
     padding-left: 40px;
-    width: 100vw;
+    width: 50vw;
     height: 1000px;
     /* border: solid red; */
     display: flex;
@@ -56,7 +74,7 @@
     align-items: center;
     justify-content: flex-start;
     text-align: justify;
-    font-size: 5vw;
+    font-size: 4vw;
     width: 40vw;
     height: auto;
     /* border: solid red; */
@@ -93,12 +111,66 @@
     text-align: justify;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
+    font-size: .9vw;
     font-weight: 500;
     font-style: italic;
     /* bottom: 10px; */
-    width: 40vw;
+    width: 35vw;
     height: auto;
     /* border: solid rgb(189, 72, 72); */
     color: rgb(235, 234, 234);
     margin-top: 20px;
 }
+
+.Outercircle{
+    margin: 10px;
+    padding: 18px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+    -6px -6px 10px -1px rgba(255,255,255,0.7);
+    /* border: solid red; */
+}
+
+.Innercircle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 23px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2), 
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 
+                0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+    /* border: solid rgb(189, 72, 72); */
+}
+
+.skills .CircularProgressbar {
+    height: 8.25vw;
+    width: 8.25vw;
+}
+
+/* #number{
+    color: white;
+    font-weight: 600;
+}
+
+circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 1.042vw;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 200;
+
+}
+
+svg{
+    position: absolute;
+    right: 56px;
+    top: 1246px;
+} */
+
