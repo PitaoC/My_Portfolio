@@ -54,7 +54,7 @@ function MyName(){
                         <div id='number'>70%</div>
                     </div>
                 </div> */}
-                <CircularProgressbar
+                {/* <CircularProgressbar
                     value={80}
                     text={`80%`}
                     circleRatio={0.75}
@@ -63,7 +63,7 @@ function MyName(){
                         strokeLinecap: "butt",
                         trailColor: "#eee"
                     })}
-                />
+                /> */}
             </div>
         </div>
     );
