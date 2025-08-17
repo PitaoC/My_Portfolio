@@ -1,36 +1,55 @@
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com';
 import './mycontact.css';
 import phoneIcon from '../../assets/phone-solid-full.svg';
 import emailIcon from '../../assets/envelope-solid-full.svg';
 import addressIcon from '../../assets/location-dot-solid-full.svg';
 
-
-
 function MyContact() {
+    const form = useRef(null);
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs.sendForm(
+            'service_32rzqof',
+            'template_d21kue8',
+            form.current,
+            'a16_--3tlXqVcoq_N'
+        )
+        .then(
+            () => {
+                alert("Message sent!");
+                form.current.reset(); // Clear the form after successful submit
+            },
+            () => {
+                alert("Failed to send message.");
+            }
+        );
+    };
+
     return (
         <div className="ContactBorder">
 
             <div className="ContactPadding">
-
-                <div className="FillupForm">
+                <form ref={form} className="FillupForm" onSubmit={sendEmail}>
                     <p>Name</p>
-                    <input className='NameIn' type="text" placeholder="Enter Name" />
+                    <input className='NameIn' type="text" name="user_name" placeholder="Enter Name" required />
 
-                        <div className='Email-Phone-box'>
-                            <div className='Email'>
-                                <p>Email</p>
-                                <input className='EmailIn' type="email" placeholder="Enter Email" />
-                            </div>
-
-                            <div className='Phone'>
-                                <p>Phone Number</p>
-                                <input className='PhoneIn' type="tel" placeholder="Enter Phone Number" />
-                            </div>
+                    <div className='Email-Phone-box'>
+                        <div className='Email'>
+                            <p>Email</p>
+                            <input className='EmailIn' type="email" name="user_email" placeholder="Enter Email" required />
                         </div>
-                    
+
+                        <div className='Phone'>
+                            <p>Phone Number</p>
+                            <input className='PhoneIn' type="tel" name="user_phone" placeholder="Enter Phone Number" required />
+                        </div>
+                    </div>
                     <p>Message</p>
-                    <textarea className='TextAreaIn' placeholder="Enter Message"></textarea>
-                    <button className='SubmitButton'>Submit</button>
-                </div>
+                    <textarea className='TextAreaIn' name="message" placeholder="Enter Message" required></textarea>
+                    <button className='SubmitButton' type="submit">Submit</button>
+                </form>
             </div>
                 <div className='ContactDetails'>
                     <div className='ContactDetailsBox'>

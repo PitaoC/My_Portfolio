@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Oswald:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@1,500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:wght@700&family=Mozilla+Headline&family=Mozilla+Text:wght@200..700&family=Noto+Sans+JP:wght@100..900&family=Roboto+Slab:wght@900&family=Roboto:ital@0;1&display=swap');
 .HBackground {
     position:absolute;
     display: flex;
@@ -27,8 +27,7 @@
 }
 
 .skills{   
-    padding-right: 40px;
-    width: 45vw;
+    width: 47.40vw;
     height: 1000px;
     /* border: solid red; */
     display: flex;
@@ -61,12 +60,12 @@
     align-items: center;
     justify-content: flex-start;
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.6vw;
     width: 21vw;
     height: 5vh;
     font-family: "DM Serif Display", serif;
     /* border: solid red; */
-    color: rgb(241, 241, 241);
+    color: rgb(222, 222, 222);
 }
 .OuterBorder h1{
     margin: 0;
@@ -80,7 +79,7 @@
     /* border: solid red; */
     /* background-image: linear-gradient(to right, rgb(90, 90, 90) ,rgb(110, 110, 110) 5%,rgb(143, 143, 143) 95%,rgb(116, 116, 116)) ; */
     font-family: "DM Serif Display", serif;
-    color: rgb(241, 241, 241);
+    color: rgb(228, 228, 228);
     text-shadow: white;
 }
 .MiddleBorder{
@@ -122,38 +121,74 @@
     margin-top: 20px;
 }
 
-.Outercircle{
-    margin: 10px;
-    padding: 18px;
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
-    -6px -6px 10px -1px rgba(255,255,255,0.7);
-    /* border: solid red; */
-}
-
-.Innercircle{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 23px;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2), 
-                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
-                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
-                0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 
-                0px 12px 10px -10px rgba(0, 0, 0, 0.05);
-    /* border: solid rgb(189, 72, 72); */
-}
-
 .skills .CircularProgressbar {
+    margin: 10px;
     height: 8.25vw;
     width: 8.25vw;
 }
 
+.skills .CircularProgressbar-text {
+    fill: #dddddd !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    font-family: "Mozilla Text", sans-serif !important;
+}
+
+.skillsbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    /* border: solid red; */
+    color: rgb(186, 186, 186);
+}
+
+.skillsbox .skill1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 45vw;
+    height: 20vh;
+    /* border: solid red; */
+}
+
+.skillsbox .skill1 .skilltext{
+    margin: 0;
+    padding: 0;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    /* border: solid red; */
+}
+
+.skillsbox .skill1 .skilltext h1{
+    font-family: "Libertinus Sans", sans-serif;
+    font-size: 1.5vw;
+    font-weight: 700;
+    font-style: normal;
+    margin: 5px;
+    color: rgb(238, 238, 238);
+    /* border: solid red; */
+}
+.skillsbox .skill1 .skilltext p{
+    margin: 5px;
+    font-size: 0.7vw;
+    color: rgb(186, 186, 186);
+    /* border: solid red; */
+}
+
+.skillsbox .skill1 .skillbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 25vw;
+    /* border: solid red; */
+}
 /* #number{
     color: white;
     font-weight: 600;

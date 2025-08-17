@@ -30,40 +30,74 @@ function MyName(){
                 </div>
             </div>
             <div className='skills'>
-                {/* <div className='Outercircle'>
-                    <div className='Innercircle'>
-                        <div id='number'>90%</div>
-                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%">
+                <div className='skillsbox'>
+                    <div className='skill1'>
+                        <div className='skilltext'>
+                            <h1>Web Development</h1>
+                            <p>REACT, HTML, CSS, JSX, NODE.js, PHP, SQL, LARAVEL</p>
+                        </div>
+                        <div className='skillbar'>
+                            <CircularProgressbar
+                            value={90}
+                            text={`90%`}
+                            circleRatio={0.75}
+                            styles={buildStyles({
+                                rotation: 1 / 2 + 1 / 8,
+                                strokeLinecap: "round",
+                                pathColor: "url(#gradient)", // Use gradient for the progress path
+                                trailColor: "#323232fe"
+                            })}
+                            />
+                        </div>
+                    </div>
+                    <div className='skill1'>
+                        <div className='skilltext'>
+                            <h1>Software Development</h1>
+                            <p>PYTHON, NODE.js, JAVA, MONGODB, API</p>
+                        </div>
+                        <div className='skillbar'>
+                            <CircularProgressbar
+                            value={70}
+                            text={`70%`}
+                            circleRatio={0.75}
+                            styles={buildStyles({
+                                rotation: 1 / 2 + 1 / 8,
+                                strokeLinecap: "round",
+                                pathColor: "url(#gradient)", // Use gradient for the progress path
+                                trailColor: "#323232fe"
+                            })}
+                            />
+                        </div>
+                    </div>
+                    <div className='skill1'>
+                        <div className='skilltext'>
+                            <h1>Application Development</h1>
+                            <p>REACT NATIVE, KOTLIN, JAVASCRIPT, JAVA</p>
+                        </div>
+                        <div className='skillbar'>
+                            <CircularProgressbar
+                            value={70}
+                            text={`70%`}
+                            circleRatio={0.75}
+                            styles={buildStyles({
+                                rotation: 1 / 2 + 1 / 8,
+                                strokeLinecap: "round",
+                                pathColor: "url(#gradient)", // Use gradient for the progress path
+                                trailColor: "#323232fe"
+                            })}
+                            />
+                        </div>
+                    </div>
+                     <svg width="0" height="0">
                             <defs>
-                                <linearGradient id="GradientColor">
-                                    <stop offset="0%" stopColor="#ff3232ff" />
-                                    <stop offset="100%" stopColor="#5b1414ff" />
+                                <linearGradient id="gradient" gradientTransform="rotate(90)">
+                                    <stop offset="0%" stopColor="#5b1414ff" />
+                                    <stop offset="100%" stopColor="#ff3232ff" />
                                 </linearGradient>
                             </defs>
-                            <circle cx="50%" cy="50%" r="33%" strokeLinecap="round" />
-                        </svg>
-                    </div>
+                    </svg>
                 </div>
-                <div className='Outercircle'>
-                    <div className='Innercircle'>
-                        <div id='number'>70%</div>
-                    </div>
-                </div>
-                <div className='Outercircle'>
-                    <div className='Innercircle'>
-                        <div id='number'>70%</div>
-                    </div>
-                </div> */}
-                {/* <CircularProgressbar
-                    value={80}
-                    text={`80%`}
-                    circleRatio={0.75}
-                    styles={buildStyles({
-                        rotation: 1 / 2 + 1 / 8,
-                        strokeLinecap: "butt",
-                        trailColor: "#eee"
-                    })}
-                /> */}
+                
             </div>
         </div>
     );
