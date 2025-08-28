@@ -89,7 +89,7 @@
     color: white;
     /* border: solid red; */
     border-radius: 50%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 
 .teamborder .teamMembersContainer .teamMember1 p{
@@ -130,7 +130,7 @@
     color: white;
     /* border: solid red; */
     border-radius: 50%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 
 .teamborder .teamMembersContainer .teamMember2 p{
@@ -171,7 +171,7 @@
     color: white;
     /* border: solid red; */
     border-radius: 50%;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
 }
 
 .teamborder .teamMembersContainer .teamMember3 p{
@@ -212,7 +212,7 @@
     color: white;
     /* border: solid red; */
     border-radius: 50%;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
 }
 
 .teamborder .teamMembersContainer .teamMember4 p{

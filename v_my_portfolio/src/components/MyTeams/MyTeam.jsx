@@ -6,7 +6,7 @@ import hannahImage from '../../assets/FAROL,HANNAH.jpg';
 
 function MyTeam() {
     return (
-        <div className="teamborder">
+        <div id='Team' className="teamborder">
             <header className="teamheader">
                 <h1>About Our&nbsp;</h1>
                 <h1 className='teamblue'>Team</h1>

@@ -28,7 +28,7 @@ function MyContact() {
     };
 
     return (
-        <div className="ContactBorder">
+        <div id='Contact' className="ContactBorder">
 
             <div className="ContactPadding">
                 <form ref={form} className="FillupForm" onSubmit={sendEmail}>
