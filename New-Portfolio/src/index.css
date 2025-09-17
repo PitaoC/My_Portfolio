@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=DM+Serif+Display&family=Oswald&family=Playfair+Display&family=Lora&family=Anek+Telugu&display=swap');
+
+@import "tailwindcss";
+
+body {
+  overflow-x: hidden !important;
+  background-color: #000000;
+}
+
+@theme {
+  --color-indigo-990: rgb(23, 25, 43);
+  --font-roboto: "Roboto", sans-serif;
+  --font-dmserif: "DM Serif Display", serif;
+  --font-oswald: "Oswald", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+  --font-lora: "Lora", serif;
+  --font-dosis: "Dosis", sans-serif;
+  --font-anek-telugu: "Anek Telugu", sans-serif;
+  --font-roboto-mono: "Roboto Mono", monospace;
+  --font-eb-garamond: "EB Garamond", serif;
+  --font-mozilla-text: "Mozilla Text", sans-serif;
+  --font-noto-sans-jp: "Noto Sans JP", sans-serif;
+  --font-roboto-slab: "Roboto Slab", serif;
+  --font-libertinus-sans: "Libertinus Sans", sans-serif;
+  --font-mozilla-headline-bold: "Mozilla Headline Bold", sans-serif; /* ✅ Added */
+  --font-mozilla-headline-extralight: "Mozilla Headline ExtraLight", sans-serif; /* ✅ Added */
+  --font-mozilla-headline: "Mozilla Headline", sans-serif; /* ✅ Added */
+}
+
+@font-face {
+  font-family: 'Mozilla Headline Bold';
+  src: url('/src/assets/fonts/MozillaHeadline-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Mozilla Headline ExtraLight';
+  src: url('/src/assets/fonts/MozillaHeadline-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Mozilla Headline';
+  src: url('/src/assets/fonts/MozillaHeadline-Regular.ttf') format('truetype');
+}
+
+a {
+  text-decoration: none !important;
+  
+}
+/* a:hover {
+  color: red !important;
+} */
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #272727;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #4d4d4d; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7e7e7e; 
+  }
