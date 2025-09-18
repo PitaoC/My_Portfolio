@@ -4,10 +4,10 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div id="nav" className="w-screen flex items-center justify-between py-3 px-6 bg-slate-800 relative border-b-2 border-gray-700">
+    <div id="nav" className="w-screen flex items-center justify-between lg:py-3 py-2 px-6 bg-slate-800 relative border-b-2 border-gray-700">
 
       <div id="logo" className="text-white text-xl font-bold">
-        <img src={Logo} alt="" className="w-10 lg:w-12"/>
+        <img src={Logo} alt="" className="w-7 lg:w-12"/>
       </div>
 
       <div
@@ -22,7 +22,7 @@ function Navbar() {
 
 
       <div
-        className="lg:hidden text-white text-3xl cursor-pointer"
+        className="lg:hidden text-white lg:text-3xl text-xl cursor-pointer"
         onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? "✕" : "☰"}
       </div>

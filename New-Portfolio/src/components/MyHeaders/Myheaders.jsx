@@ -32,7 +32,7 @@ function Myheaders() {
     //     }
     // };
     return (
-        <div id='Home' className="w-screen h-screen bg-gradient-to-b from-slate-800 to-stone-950 flex flex-col lg:flex-row">
+        <div id='Home' className="w-screen h-screen bg-gradient-to-b from-slate-800 to-stone-950 flex flex-col lg:flex-row scroll-fade">
             <div className="flex-1 flex flex-row items-center justify-center text-lg-start text-center text-white">
                 <h className='lg:text-9xl text-5xl text-white font-eb-garamond font-black tracking-widest'>PORTFOLIO</h>
             </div>

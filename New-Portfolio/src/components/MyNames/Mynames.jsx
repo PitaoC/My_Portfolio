@@ -21,10 +21,10 @@ function Mynames() {
         
         <div
             id="About"
-            className="lg:w-screen lg:h-screen md:h-[300vh] h-[200vh] bg-stone-950 lg:bg-cover lg:bg-top md:bg-cover md:bg-bottom bg-cover bg-bottom flex flex-col lg:flex-row"
+            className="lg:w-screen lg:h-screen md:h-[300vh] sm:h-[300vh] h-[200vh] bg-stone-950 lg:bg-cover lg:bg-top md:bg-cover md:bg-bottom bg-cover bg-bottom flex flex-col lg:flex-row  scroll-fade"
             style={{ backgroundImage: `url(${HBackground})` }}
             >
-            <div id="col1" className="md:h-screen h-screen flex-1 flex flex-col justify-center lg:pl-10 text-lg-start text-md-center text-center text-white">
+            <div id="col1" className="md:h-screen h-screen flex-1 flex flex-col justify-center lg:pl-10 text-lg-start text-md-center text-center text-white scroll-fade">
                 <p className="text-3xl font-dmserif ">Hey there,</p>
                 <h className="text-6xl lg:text-7xl font-dmserif pt-1 pb-2">
                 I'm Christian <br /> P. Pitao
@@ -40,7 +40,7 @@ function Mynames() {
                 </p>
             </div>
 
-            <div id="col2" className="h-screen flex-1 flex flex-col lg:items-end items-center justify-center lg:pr-10">
+            <div id="col2" className="h-screen flex-1 flex flex-col lg:items-end items-center justify-center lg:pr-10 scroll-fade">
                 <div className='flex lg:flex-row flex-col lg:pt-3 lg:pb-3 my-2 lg:my-0' >
                     <div className='flex flex-col justify-center lg:items-end item-start lg:pr-10 text-center'>
                         <h className='text-white font-lora lg:text-3xl text-2xl font-semibold'>Web Development</h>

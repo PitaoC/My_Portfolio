@@ -26,12 +26,12 @@ function Mycontacts(){
         );
     };
     return(
-        <div id='Contact' className="lg:w-screen lg:h-screen
+        <div id='Contact' className="lg:w-screen lg:h-screen sm:h-[280vh]
                                      flex lg:flex-row flex-col
                                      bg-gradient-to-b from-indigo-990  to-teal-950
                                      text-white">
             <div id="ContactPadding" className='flex lg:flex-1 items-center justify-center
-                                                w-screen h-screen'>
+                                                lg:w-screen lg:h-screen w-screen h-screen sm:h-[150vh] scroll-fade'>
                 <form ref={form} id="FillupForm" onSubmit={sendEmail} className='lg:w-2xl w-8/10 
                                                                                  font-libertinus-sans lg:text-lg text-sm font-medium'>
                     <p className=' my-3'>Name</p>
@@ -53,7 +53,7 @@ function Mycontacts(){
                     <button id='SubmitButton' className='w-20 rounded-3 bg-teal-300 hover:bg-teal-500 hover:text-teal-200 text-teal-900 font-semibold font-roboto my-3' type="submit">Submit</button>
                 </form>
             </div>
-            <div id='ContactDetails' className='lg:flex lg:flex-1 lg:items-center content-center justify-center w-screen h-screen'>
+            <div id='ContactDetails' className='lg:flex lg:flex-1 lg:items-center content-center justify-center lg:w-screen lg:h-screen w-screen h-screen sm:h-[130vh] scroll-fade'>
                 <div id='ContactDetailsBox' className='lg:w-2xl'>
                     <header id='ContactUsBox' className='lg:flex lg:flex-row 
                                                          justify-center text-center
