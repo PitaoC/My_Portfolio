@@ -32,7 +32,7 @@ function Mycontacts(){
                                      text-white">
             <div id="ContactPadding" className='flex lg:flex-1 items-center justify-center
                                                 lg:w-screen lg:h-screen w-screen h-screen sm:h-[150vh] scroll-fade'>
-                <form ref={form} id="FillupForm" onSubmit={sendEmail} className='lg:w-2xl w-8/10 
+                <form ref={form} id="FillupForm" onSubmit={sendEmail} className='lg:w-2xl w-9/10 
                                                                                  font-libertinus-sans lg:text-lg text-sm font-medium'>
                     <p className=' my-3'>Name</p>
                     <input id='NameIn' className='w-full h-10 text-xs placeholder:text-sm rounded-md bg-gray-700 pl-3' type="text" name="user_name" placeholder="Enter Name" required />

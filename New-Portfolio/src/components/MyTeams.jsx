@@ -41,26 +41,26 @@ function MyTeams(){
                                 lg:flex lg:flex-row 
                                 grid grid-cols-2 grid-rows-2
                                 text-lg text-center 
-                                lg:justify-center lg:items-center md:justify-items-center sm:justify-items-center 
+                                lg:justify-center lg:items-center md:justify-items-center sm:justify-items-center justify-items-center 
                                 ">
                     <div id='teamMember1' className='mx-lg-5 m-2'>
-                        <img src={christianImage} alt="christianImage" className='lg:w-[10vw] lg:h-[10vw] md:w-[20vw] md:h-[20vw] sm:w-[20vw] sm:h-[20vw] rounded-full mb-3'/>
-                        <h className='font-medium lg:text-2xl md:text-xl text-xl font-libertinus-sans'>Christian Pitao</h>
+                        <img src={christianImage} alt="christianImage" className='lg:w-[10vw] lg:h-[10vw] md:w-[20vw] md:h-[20vw] sm:w-[20vw] sm:h-[20vw] w-[35vw] h-35vw] rounded-full mb-3'/>
+                        <h className='font-medium lg:text-2xl md:text-xl text-lg font-libertinus-sans'>Christian Pitao</h>
                         <p className='lg:text-xs text-[0.65rem] font-roboto italic my-lg-3 my-1'>Full Stack Developer</p>
                     </div>
                     <div id='teamMember2' className='mx-lg-5 m-2'>
-                        <img src={vincentImage} alt="vincentImage" className='lg:w-[10vw] lg:h-[10vw] md:w-[20vw] md:h-[20vw] sm:w-[20vw] sm:h-[20vw] rounded-full mb-3'/>
-                        <h className='font-medium lg:text-2xl md:text-xl text-xl font-libertinus-sans'>Vincent Ponce</h>
+                        <img src={vincentImage} alt="vincentImage" className='lg:w-[10vw] lg:h-[10vw] md:w-[20vw] md:h-[20vw] sm:w-[20vw] sm:h-[20vw] w-[35vw] h-35vw] rounded-full mb-3'/>
+                        <h className='font-medium lg:text-2xl md:text-xl text-lg font-libertinus-sans'>Vincent Ponce</h>
                         <p className='lg:text-xs text-[0.65rem] font-roboto italic my-lg-3 my-1'>Back-End Developer</p>
                     </div>
                     <div id='teamMember3' className='mx-lg-5 m-2'>
-                        <img src={lanceImage} alt="lanceImage" className='lg:w-[10vw] lg:h-[10vw] md:w-[20vw] md:h-[20vw] sm:w-[20vw] sm:h-[20vw] rounded-full mb-3'/>
-                        <h className='font-medium lg:text-2xl md:text-xl text-xl font-libertinus-sans'>Lance Sabatin</h>
+                        <img src={lanceImage} alt="lanceImage" className='lg:w-[10vw] lg:h-[10vw] md:w-[20vw] md:h-[20vw] sm:w-[20vw] sm:h-[20vw] w-[35vw] h-35vw] rounded-full mb-3'/>
+                        <h className='font-medium lg:text-2xl md:text-xl text-lg font-libertinus-sans'>Lance Sabatin</h>
                         <p className='lg:text-xs text-[0.65rem] font-roboto italic my-lg-3 my-1'>Database Administrator</p>
                     </div>
                     <div id='teamMember4' className='mx-lg-5 m-2'>
-                        <img src={hannahImage} alt="hannahImage" className='lg:w-[10vw] lg:h-[10vw] md:w-[20vw] md:h-[20vw] sm:w-[20vw] sm:h-[20vw] rounded-full mb-3'/>
-                        <h className='font-medium lg:text-2xl md:text-xl text-xl font-libertinus-sans'>Hannah Farol</h>
+                        <img src={hannahImage} alt="hannahImage" className='lg:w-[10vw] lg:h-[10vw] md:w-[20vw] md:h-[20vw] sm:w-[20vw] sm:h-[20vw] w-[35vw] h-35vw] rounded-full mb-3'/>
+                        <h className='font-medium lg:text-2xl md:text-xl text-lg font-libertinus-sans'>Hannah Farol</h>
                         <p className='lg:text-xs text-[0.65rem] font-roboto italic my-lg-3 my-1'>Front-End Developer</p>
                     </div>
                 </div>
