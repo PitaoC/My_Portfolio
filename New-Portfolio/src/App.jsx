@@ -9,6 +9,7 @@ import { useEffect } from 'react';
 // import SmoothScroll from 'smooth-scroll';
 import Mycontacts from './components/Mycontacts';
 import MyTeams from './components/MyTeams';
+import MyProjects from './components/MyProjects';
 
 function App() {
       // const location = useLocation();
@@ -46,6 +47,7 @@ function App() {
       <Myheaders />
       <Mynames />
       <MyTeams />
+      <MyProjects />  {/* Add this component */}
       <Mycontacts />
     </div>
   );
