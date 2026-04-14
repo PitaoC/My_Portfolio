@@ -15,6 +15,17 @@ function MyProjects() {
             type: "Desktop Application"
         },
         {
+            name: "Flutter Blog",
+            description: "A modern blog platform built with Flutter for both web and mobile. Features include user authentication, post creation and editing, commenting, and a responsive UI. Available as both a web application and a downloadable app.",
+            technologies: ["Flutter", "Dart", "Web", "Mobile"],
+            techColors: ["bg-blue-500", "bg-cyan-600", "bg-green-600", "bg-purple-600"],
+            icon: <SiJavascript className="text-4xl text-blue-400" />, // You may replace with a Flutter icon if available
+            github: "https://github.com/PitaoC/Blog-Assesment.git",
+            download: null,
+            liveDemo: "https://blog-assesment-gsd2.vercel.app/",
+            type: "Web & App"
+        },
+        {
             name: "BlogHub",
             description: "A full-featured blog platform built with TypeScript and React. Users can register, login, create and edit blog posts, and leave comments. Uses Supabase for authentication and database, with Redux for state management and styled-components for a modern UI.",
             technologies: ["TypeScript", "React", "Redux", "Supabase"],
@@ -26,7 +37,7 @@ function MyProjects() {
             type: "Web Application"
         },
         {
-            name: "Cup of Kape",
+            name: "Cup of Kape (Unfinished)",
             description: "A specialty coffee shop website featuring a beautiful landing page, interactive menu with add-to-cart functionality, event booking services for weddings and corporate events, and a contact page. Built with React and styled with Tailwind CSS.",
             technologies: ["JavaScript", "React", "Tailwind CSS"],
             techColors: ["bg-yellow-500", "bg-cyan-600", "bg-teal-600"],
